@@ -1,0 +1,59 @@
+.nav-header {
+    height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #23252C;
+    color: var(--light)
+
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 0px 2px;
+    padding: 0px 4px;
+    width: 36px;
+    height: 36px;
+}
+
+.title {
+    margin: 0px;
+    padding: 0px 4px;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul {
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    margin-left: 2rem;
+}
+.nav-left ul  li  a{
+    justify-content: space-between;
+    height: fit-content;
+    border: 1px solid var(--light);
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--light);
+    padding: 3px;
+    margin: 8px;
+}
+
+.sun-img {
+    height: 26px;
+    width: 26px;
+    margin-right: 8px;
+}
+
+.moon-img {
+    height: 20px;
+    width: 20px;
+    margin: 0px 8px;
+}

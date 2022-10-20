@@ -1,0 +1,15 @@
+@import url(_vars.css);
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	position: relative;
+	place-items: center;
+	background-color: var(--dark);
+	font-family: Inter, Avenir, sans-serif;
+}
+
