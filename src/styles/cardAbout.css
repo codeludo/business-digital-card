@@ -1,0 +1,22 @@
+@import url(_vars.css);
+
+.about-info {
+    margin-top: 0;
+    margin-bottom: 5px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.about-description {
+    margin-bottom: 27px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 15px;
+	letter-spacing: 0em;
+	text-align: left;
+    max-width: 247px;
+}
+

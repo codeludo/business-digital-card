@@ -1,9 +1,14 @@
 import React from "react";
-import Option2 from "../containers/Option2";
+import "../styles/card2.css"
+
 
 const Card2 = () => {
     return (
-        <Option2 />
+        <div className="card-container">
+			<div className="card-2">
+				<h1>hola</h1>
+			</div>
+		</div>
         )
 }
 

@@ -1,0 +1,10 @@
+@import url(_vars.css);
+
+.card-main {
+    color: var(--light);
+    display: flex;
+    flex-direction: column;
+    margin: 33px 36px 4px 36px;
+    gap: 0;
+}
+

@@ -4,10 +4,10 @@
 	box-sizing: border-box;
 }
 
-html,
 body {
+	height: 100vh;
 	margin: 0;
-	position: relative;
+	padding: 0;
 	place-items: center;
 	background-color: var(--dark);
 	font-family: Inter, Avenir, sans-serif;

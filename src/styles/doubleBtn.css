@@ -1,0 +1,52 @@
+@import url(_vars.css);
+
+.info-btn {
+	width: 100%;
+	margin-top: 9px;
+    margin-bottom: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.info-btn button {
+	margin: 0px 8px;
+	width: 115px;
+	height: 34px;
+	border-radius: 6px;
+	padding: 9px 13px 9px 11px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	box-shadow: 0px 1px 1px var(--light);
+}
+
+.info-btn button img {
+	height: 14px;
+	width: 14px;
+	border-radius: 0px;
+}
+
+.btn-email {
+	background-color: var(--light);
+	border-color: var(--light);
+}
+
+.btn-email:hover {
+	background-color: gray;
+}
+
+.btn-linkedin {
+	border-color: var(--blue);
+	background: var(--dark-blue);
+    color: var(--light);
+}
+
+.btn-linkedin:hover {
+	background: var(--blue);
+}
+
